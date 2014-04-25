@@ -10,6 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii": "1.1.1"
+        "yiisoft/yii": "1.1.14",
+        "facebook/php-sdk": "*"
     }
 }

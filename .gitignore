@@ -4,3 +4,4 @@
 !.idea/webResources.xml
 
 vendor/*
+node_modules/*

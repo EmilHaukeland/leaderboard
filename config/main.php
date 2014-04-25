@@ -8,6 +8,11 @@ return array(
         'user' => array(
             'allowAutoLogin' => true,
         ),
+        'facebook' => array(
+            'class' => 'application.components.FacebookComponent',
+            'applicationId' => '',
+            'secret' => '',
+        ),
         'urlManager' => array(
             'urlFormat' => 'path',
             'rules' => array(

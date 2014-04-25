@@ -6,7 +6,7 @@ return array(
     'preload' => array('log'),
     'components' => array(
         'db' => array(
-            'connectionString' => 'mysql:host=localhost;dbname=testdrive',
+            'connectionString' => 'mysql:host=localhost;dbname=leaderboard',
             'emulatePrepare' => true,
             'username' => 'root',
             'password' => '',

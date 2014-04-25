@@ -1,0 +1,15 @@
+{
+    "name": "emilhaukeland/leaderboard",
+    "description": "Generic leaderboard system",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Emil Haukeland",
+            "email": "emil.haukeland@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii": "1.1.1"
+    }
+}

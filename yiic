@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+
+<?php
+
+defined('APP_ROOT') or define('APP_ROOT', __DIR__);
+
+$yiic = APP_ROOT . '/vendor/yiisoft/yii/framework/yiic.php';
+$config = APP_ROOT . '/config/console.php';
+
+require_once($yiic);

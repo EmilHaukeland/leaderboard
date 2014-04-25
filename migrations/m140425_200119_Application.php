@@ -8,7 +8,7 @@ class m140425_200119_Application extends CDbMigration
             'id' => 'INT(11) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY',
             'userId' => 'INT(11) UNSIGNED NOT NULL',
             'name' => 'VARCHAR(255) NOT NULL',
-            'password' => 'VARCHAR(255) NOT NULL',
+            'secret' => 'VARCHAR(255) NOT NULL',
             'created' => 'DATETIME NOT NULL',
         ), 'ENGINE InnoDB');
 

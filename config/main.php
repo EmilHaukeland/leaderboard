@@ -14,8 +14,9 @@ return array(
             'secret' => '',
         ),
         'urlManager' => array(
-            'urlFormat' => 'path',
+            //'urlFormat' => 'path',
             'rules' => array(
+                'submit' => 'leaderboard/submit',
                 '<controller:\w+>/<id:\d+>' => '<controller>/view',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',

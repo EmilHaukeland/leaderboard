@@ -62,8 +62,7 @@ class LeaderboardController extends CController
 
     private function sendErrorResponse($errorCode, array $data = array())
     {
-        header('Content-Type: application/json');
-        header(' ', true, $errorCode);
+        header('Content-Type: application/json', true, $errorCode);
 
         echo json_encode($data);
         Yii::app()->end();
@@ -71,8 +70,7 @@ class LeaderboardController extends CController
 
     private function sendSuccessResponse(array $data = array())
     {
-        header('Content-Type: application/json');
-        header(' ', true, !$data ? 204 : 200);
+        header('Content-Type: application/json', true, 200);
 
         if($data)
         {
